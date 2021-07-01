@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=6502_connection.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=6502_connection.SchDoc|FileName=horizontal_counter.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=6502_connection.SchDoc|FileName=vertical_counter.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=6502_connection.SchDoc|FileName=VGA_driver.SchDoc|SheetNumber=4

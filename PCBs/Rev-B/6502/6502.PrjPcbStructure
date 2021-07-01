@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=65c02.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=65c02.SchDoc|FileName=address_LEDs.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=65c02.SchDoc|FileName=clock_module.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=65c02.SchDoc|FileName=config_headers.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=65c02.SchDoc|FileName=ps2_interface.SchDoc|SheetNumber=5
