@@ -4,14 +4,24 @@ While following along Ben Eater's 6502 video series, I attempted to follow along
 
 ![](images/breadboard-version.jpg)
 
+![](images/combined-PCBs.jpg)
+
+Note that there are two revisions of these boards, as I found some mistakes when fabricating Revision A. In Revision B, I fixed the crystal oscillator footprints (accidentally mirrored them) and 
+
 ## 6502 Main PCB
 
-The main PCB follows Ben Eater's 6502 series, comprising the 6502 processor, 62256 SRAM, 28C256 EEPROM, and 65C22 Interface Adapter. Additionally, I incorporated his 555 based clock generator, and PS2 interface.
+The main PCB follows Ben Eater's 6502 series, comprising the 6502 processor, 62256 SRAM, 28C256 EEPROM, and 65C22 Interface Adapter. Additionally, I incorporated his 555 based clock generator, and PS2 interface. The schematic for this PCB is available [here](PCBs/Rev-B/6502/6502.pdf).
+
+![](images/6502-PCB.jpg)
 
 ## VGA PCB
 
-This follows Ben Eater's [World's Worst Video Card](https://eater.net/vga) series
+This follows Ben Eater's [World's Worst Video Card](https://eater.net/vga) series. This comprises a bunch of 74-series logic gates to count VGA clock pulses, which is used to generate appropriate `HSYNC` and `VSYNC` signals for a screen resolution of 200x150 at 10MHz. The schematic for this PCB is available [here](PCBs/Rev-B/6502_VGA/6502_VGA.pdf).
+
+![](images/VGA-PCB.jpg)
 
 ## EEPROM Programmer
 
-This is simply a PCB version of the [EEPROM Programmer](https://github.com/beneater/eeprom-programmer).
+This is simply a PCB version of the [EEPROM Programmer](https://github.com/beneater/eeprom-programmer). The schematic for this PCB is available [here](PCBs/Rev-B/EEPROM_Programmer/EEPROM_Programmer.pdf).
+
+![](images/EEPROM-Programmer-PCB.jpg)
